@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     public Vector3 moveInput;
     public Animator animator;
-
+    public SpriteRenderer CharcterSR;
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -23,9 +23,8 @@ public class Player : MonoBehaviour
         {
             if (moveInput.x > 0)
             {
-                transform.localScale = new Vector3(1,1,1);
-            }else transform.localScale = new Vector3(-1, 1, 1);
+                CharcterSR.transform.localScale = new Vector3(1,1,1);
+            }else CharcterSR.transform.localScale = new Vector3(-1, 1, 1);
         }
     }
-
 }
