@@ -23,8 +23,8 @@ public class Player : MonoBehaviour
         {
             if (moveInput.x > 0)
             {
-                CharcterSR.transform.localScale = new Vector3(1,1,1);
-            }else CharcterSR.transform.localScale = new Vector3(-1, 1, 1);
+                transform.localScale = new Vector3(1,1,1);
+            }else transform.localScale = new Vector3(-1, 1, 1);
         }
     }
 }
