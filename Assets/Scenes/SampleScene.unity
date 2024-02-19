@@ -981,7 +981,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: a3fb6cfa2876b994c82b45eb1d7da55f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1353,9 +1353,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -7.5176697, y: -1.8946981}
+  m_Offset: {x: -8.665899, y: -1.8946981}
   serializedVersion: 2
-  m_Radius: 1.926115
+  m_Radius: 0.7779856
 --- !u!1 &1080145882
 GameObject:
   m_ObjectHideFlags: 0
@@ -1810,7 +1810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAA4IezgExOrdwIAADIFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMziUjU0NNby0hpAcSJqSTiy9CWmMNsuTRR4Bk+O+VZBs7dHyw/Pbr7duVPxGXpgZqlV5pztaKAfo5QuGMvo164yOcyF7JLf+AzueNM1sGJxJ9XojlyuNJCDOqAqs5/SX3IjhjDzrJC6WrJdvDQhlrPFwQYcCbtLIhWnroc4RO/jWeh5CzP01+hNOHP83x6OKPFKQFPXBN77I0TfyTtSH4DidZOs3SbDprY7/fTbMZTifpcoyzmMZJKkhVAws99dnSrm7aVJO+29YjdEaVENy0VJE911GKbV2ChqAF48R3HukF9xL4vrShi2Hsc1EYsK0smpzvufYCNknRb9WoWhFzaGi9E+FCmVkaGTU51/+Zx0k0F1pVj13ZBIcStuT08ELOlBg7UH0I33/l7eSRiAPZCXgrQT6plVZOMm+02oVQZ2By339eO1uUQA893lC9AV3dq92J3Y049HCJzZ8Wgle7OMy0AbZCRbXjZoD2c/njCce9MW0KjwYWfw28kv1wwVrDA9fGelPbpQz0dsrp4IqWUbPQjbMLpSVEuCVdgyTCnjc+jb2d4I1tUPbG8kDCVWqLt7buhtyERLj3x/jGtFHH67BMqY5rMOWzs4JL6EkHw5PXaaGkbBZsqEkXtnW6IHQQtnecfV0txOZpgSc7lmJIJowmY5hmmDDKaDHHbD4pUNw9Ln2fRGwaoq08fmqyTy79nnV/mNFKkzouO9PkuOIflRoS5LJQW6oB5HOT4soctK/iLyVbMu4V2oK1XMaBo88cCUUPwPJrzTy2ujxZTfI+S45q/q5sQHK0iP+UHAX4uswbDe8cjqF4l+yCLv8AUEsDBBQAAAgIAAA4IexO9WSFbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrRSiqVJmoFRUoqJQaqhUUqyoW6qqYVBYkpySnKapUGKpVGaUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAA4IezgExOrdwIAADIFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAA4IexO9WSFbQAAAHgAAAAJACQAAAAAAAAAAAAAAMQCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAfAMAAAAA
+    dataString: UEsDBBQAAAgIAAA4IewFqC4tdAIAAC8FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMzoWxweWjtxYI6SEJE9rJxRchrbEGWfJIcoBk+O/VyjZ26Inl7b7dtx/yJxHKlsCcNhsj+JPmQH4MCNrk26BzPsKZHrTaiQ9oY94EdzkG0RDzSp3QHo+RZnUBzgj2Ux0kBkcerJTItCnW/ABLbZ31cEalBe8y2iFbeehzQM7+Z7hAysVb4xlaH95aRIOrNxkoB6YXOh/FkyQaz1rCKJol08ksiRteTasUk7QogWMPHXvS1onrMOW7ayKQz7SUwjbSiLuUofVdmYMB7J0L6jsNcjA8B3HIHYroc1+yzIJrxmDoZSWMH1idlPzS9RQLao+1rHcqKywzTYKiOufTf+5hHNyZ0cVjWzaOsITLBTu+0guj1vWm3IdXX3VX6kTlke4lvOWgnvXG6Epx73SmQmplYbzq/t46W+bAjh1eS70Dq7Kb9m2po8k8iefTyXQ9jGbNnrCha5jEeSlFscf4UVIDO6nD6MNZgPFL+u3Vh6OxTV6PoqS/Fv7QQ/+6GseDMNZ5V9OyQq17XRkMJeswQGytckttFAS46aAERaW7bH0ad7/OO1+v7J3ngeI7aoo3vvZ53FEC3MVH0Z1rq0+3zdlcn57A5i+Vk0JBJxodz35OS61UfW39mbS0XWUyynq0QyX41zsjfJFk0XjPkwjiMWfxEL7PI8oZZ9ki4otxRsIhCuX7pHJbC23G47emuuTKH137eRlsDC3D5XNDTxvxUei+QKEyvWMGQL3UKW7Kwfgq/oXyNRd+QjtwTqiwcPKZEqnZEXh6q5mGVtdnZ2jaZUlJKd61QyQly/BBSQnCt8veGngXcMLibbIruf4DUEsDBBQAAAgIAAA4IexO9WSFbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM011FQSi9KLMgoBooYgjilmSkgdrRSiqVJmoFRUoqJQaqhUUqyoW6qqYVBYkpySnKapUGKpVGaUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAA4IewFqC4tdAIAAC8FAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAA4IexO9WSFbQAAAHgAAAAJACQAAAAAAAAAAAAAAMECAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAeQMAAAAA
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -1892,7 +1892,7 @@ Transform:
   m_GameObject: {fileID: 1729981450}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.78, y: 0.3, z: -0.0061709518}
+  m_LocalPosition: {x: -8.2, y: 2.1, z: -0.0061709518}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1942,7 +1942,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1755147857}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
   m_Name: 
@@ -2069,7 +2069,7 @@ MonoBehaviour:
   roaming: 1
   moveSpeed: 3
   nextWPDistance: 0.3
-  updateContinuesPath: 0
+  updateContinuesPath: 1
   seeker: {fileID: 1755147860}
   isShootable: 1
   bullet: {fileID: 1844067358}
@@ -2617,7 +2617,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 79d82921c7401dc488f4117dacff7b09, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
