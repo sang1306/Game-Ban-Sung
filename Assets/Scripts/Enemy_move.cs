@@ -27,7 +27,7 @@ public class Enemy_move : MonoBehaviour
     private void Start()
     {   
         InvokeRepeating("CalculatePath", 0f, 0.5f);
-        reachDestination = true;
+        reachDestination = false;
     }
 
     private void Update()
@@ -70,7 +70,7 @@ public class Enemy_move : MonoBehaviour
     IEnumerator MoveToTargetCoroutine()
     {
         int currentWP = 0;
-        reachDestination = false;
+        reachDestination = true;
         while (currentWP < path.vectorPath.Count)
         {
             Vector2 direction = ((Vector2)path.vectorPath[currentWP] - (Vector2)transform.position).normalized;
@@ -87,7 +87,7 @@ public class Enemy_move : MonoBehaviour
     Vector2 FindTarget()
     {
         Vector3 playerPos = FindObjectOfType<Player>().transform.position;
-        if(roaming = true)
+        if(roaming == true)
         {
             return (Vector2)playerPos + (Random.Range(10f, 50f) * new Vector2 (Random.Range(-1, 1), Random.Range(-1, 1)).normalized);
         }

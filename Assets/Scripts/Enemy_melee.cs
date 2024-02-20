@@ -22,7 +22,7 @@ public class Enemy_melee : MonoBehaviour
 
     void CalculatePath()
     {
-        if(seeker.IsDone())
+        if (seeker.IsDone())
         {
             seeker.StartPath(transform.position, target.position, OnPathCallback);
         }
@@ -30,10 +30,11 @@ public class Enemy_melee : MonoBehaviour
 
     void OnPathCallback(Path p)
     {
-        if (p.error) return;
+        if (p.error) return; // Fix here
         path = p;
-        MoveToTarget();
+        MoveToTarget(); // Call MoveToTarget when a new path is calculated
     }
+
     void MoveToTarget()
     {
         if (moveCoroutine != null) StopCoroutine(moveCoroutine);
@@ -43,14 +44,14 @@ public class Enemy_melee : MonoBehaviour
     IEnumerator MoveToTargetCoroutine()
     {
         int currentWP = 0;
-        while(currentWP < path.vectorPath.Count)
+        while (currentWP < path.vectorPath.Count)
         {
             Vector2 direction = ((Vector2)path.vectorPath[currentWP] - (Vector2)transform.position).normalized;
             Vector3 force = direction * moveSpeed * Time.deltaTime;
             transform.position += force;
 
             float distance = Vector2.Distance(transform.position, path.vectorPath[currentWP]);
-            if(distance < nextWPDistance)
+            if (distance < nextWPDistance)
             {
                 currentWP++;
             }
@@ -58,9 +59,9 @@ public class Enemy_melee : MonoBehaviour
                 if (force.x < 0)
                     characterSR.transform.localScale = new Vector3(-1, 1, 0);
                 else
-                    characterSR.transform.localScale = new Vector3(-1, 1, 0);
+                    characterSR.transform.localScale = new Vector3(1, 1, 0); // Fix here
 
-            yield return null;
+            yield return null; // Fix here
         }
     }
 }
